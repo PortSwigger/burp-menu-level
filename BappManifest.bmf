@@ -1,0 +1,13 @@
+Uuid: e1156b3d48c4469f9f1e234a3119fab1
+ExtensionType: 1
+Name: Change Menu Level
+RepoName: change-menu-level
+ScreenVersion: 1.0
+SerialVersion: 3
+MinPlatformVersion: 0
+ProOnly: False
+Author: Ovie
+ShortDescription: Change the nesting level of extension-generated context menu items.
+EntryPoint: target/BurpMenuLevel-1.0-SNAPSHOT.jar
+BuildCommand: mvn clean package
+SupportedProducts: Pro, Community
